@@ -1,0 +1,71 @@
+<!--pages/my/my.wxml-->
+<view class='header'>
+  <view class='section-five'>
+    <image class='section-five-img' src='../../images/xiaoguimonashui.png'></image>
+    <view class='section-five-a'> 
+      <text>1234567890</text>
+      <image  src='../../images/youjiantou.png'></image>
+    </view>
+  </view>
+</view>
+<view class='meiyong'></view>
+<view class='section'>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/one.png'></image>
+      <text>我的公司</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/two.png'></image>
+      <text>我的订单</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/three.png'></image>
+      <text>我的抬头</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view class='meiyong'></view>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/four.png'></image>
+      <text>联系客服</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/five.png'></image>
+      <text>加盟合作</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/rongzi.png'></image>
+      <text>申请融资</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/raise.png'></image>
+      <text>我的众筹</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+  <view class='meiyong'></view>
+  <view style='border-bottom:1px solid #F2F2F2' class='section-frame'>
+    <view class='section-frame-a'> 
+      <image class='section-frame-img' src='../../images/six.png'></image>
+      <text>设置</text>
+      <image class='img'  src='../../images/jiantou.png'></image>
+    </view>
+  </view>
+</view>

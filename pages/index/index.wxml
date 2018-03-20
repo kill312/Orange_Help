@@ -1,0 +1,107 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper class="swiper" indicator-dots="true" autoplay="true" interval="3000" duration="1000">  
+      <block wx:for="{{movies}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+  </swiper> 
+
+  <view class="flex-row" style="display: block;">
+    <view class="flex-view-item">
+      <view class="flex-view-item-text">
+        <image src="../../images/shugang.png"></image><text>热门产品</text>
+      </view>
+      <view style="width:100%;height:200rpx;display:flex">
+          <view bindtap="goto_register" class="flex-view"><image src='../../images/zhuce.png'></image></view>
+          <view bindtap="goto_accounting" class="flex-view"><image src='../../images/jizhangbaoshu.png'></image></view>
+          <view bindtap="goto_enterprise" class="flex-view"><image src='../../images/qiyebiangen.png'></image></view>
+      </view>
+    </view>
+
+    <view class='useless'></view>
+
+    <view class="flex-view-item" style='height:250rpx;'>
+      <view class="flex-view-item-text">
+        <image src="../../images/shugang.png"></image><text>实用工具</text>
+      </view>
+      <view style="width:100%;height:150rpx;display:flex">
+          <view bindtap='goto_free' class="flex-viewa"><image src='../../images/mianfeiheshi.png'></image></view>
+          <view bindtap='goto_invoice' class="flex-viewa"><image src='../../images/fapiaoyanzheng.png'></image></view>
+      </view>
+    </view>
+
+    <view class='uselessa'><text>小企业的财税管家</text></view>
+
+    <view class="flex-view-item" style="height:300rpx">
+      <view class="flex-view-item-text">
+        <image src="../../images/shugang.png"></image>
+        <text>注册公司</text>
+      </view>
+      <view style="width:750rpx;height:200rpx;display:flex;">
+          <view bindtap='goto_finite' class='flex-view1'>
+            <image src='../../images/youxiangongsi.png'></image>
+            <text>有限公司</text>
+          </view>
+          <view bindtap='goto_cooperation' class='flex-view1'>
+            <image src='../../images/hehuoqiye.png'></image>
+            <text>合伙企业</text>
+          </view>
+          <view bindtap='goto_personal' class='flex-view1'>
+            <image src='../../images/gerenduzi.png'></image>
+            <text>个人独资</text>
+          </view>
+          <view bindtap='goto_branch' class='flex-view1'style='border-right:none'>
+            <image src='../../images/fengongsizhuce.png'></image>
+            <text>分公司注册</text>
+          </view>
+          
+      </view>
+      
+    </view>
+
+    <view class='useless'></view>
+
+    <view class="flex-view-item" style='height:250rpx;'>
+      <view class="flex-view-item-text">
+        <image src="../../images/shugang.png"></image><text>记账报税</text>
+      </view>
+      <view style="width:100%;height:150rpx;display:flex">
+          <view bindtap='goto_commonly' class="flex-viewb"><image src='../../images/yibannashui.png'></image></view>
+          <view bindtap='goto_small' class="flex-viewb"><image src='../../images/xiaoguimonashui.png'></image></view>
+      </view>
+    </view>
+
+    <view class='useless'></view>
+
+    <view class="flex-view-item" style="height:300rpx">
+      <view class="flex-view-item-text">
+        <image src="../../images/shugang.png"></image><text>企业变更</text>
+      </view>
+      <view style="width:750rpx;height:200rpx;display:flex;">
+          <view bindtap='goto_address' class='flex-view1'>
+            <image src='../../images/dizhibiangeng.png'></image>
+            <text>地址变更</text>
+          </view>
+          <view bindtap='goto_law' class='flex-view1'>
+            <image src='../../images/farenbiangeng.png'></image>
+            <text>法人变更</text>
+          </view>
+          <view bindtap='goto_thigh' class='flex-view1'>
+            <image src='../../images/guquanbiangeng.png'></image>
+            <text>股权变更</text>
+          </view>
+          <view bindtap='goto_money' class='flex-view1'style='border-right:none'>
+            <image src='../../images/zhijinbiangeng.png'></image>
+            <text>资金变更</text>
+          </view>
+          
+      </view>
+      
+    </view>
+
+    <view class='useless'></view>
+
+  </view>
+</view>

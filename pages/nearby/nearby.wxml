@@ -1,0 +1,30 @@
+<!--pages/nearby/nearby.wxml-->
+
+<view class='header'>
+  <view class='header-describe'>
+    <text>描述您的需求</text>
+  </view>
+  <view style='height:10rpx'></view>
+  <view class='header-class'>
+    <view class='header-class-a'><text>手机随时查账</text></view>
+    <view class='header-class-b'><text>出错赔付</text></view>
+    <view class='header-class-a'><text>需要购买发票</text></view>
+  </view>
+  <view class='header-class'>  
+    <view class='header-class-a'><text>需要上门取票</text></view>
+    <view class='header-class-b'><text>工商年报</text></view>
+    <view class='header-class-b'><text>税务年报</text></view>
+    <view class='header-class-b'><text>税负预警</text></view>
+  </view>
+  <view style='height:10rpx'></view>
+  <view class='header-text'>
+    <textarea placeholder="具体描述您想要什么，能更快找到适合您的服务商，如：需求背景，工作周期等……" auto-focus="true" />
+  </view>
+  <view style='height:60rpx'></view>
+  <view class='header-button'>
+    <button>立即提交</button>
+  </view>
+</view>
+<picker bindchange='bindPickerCity' mode='region' value='{{region}}'>
+  <view>当前城市：{{region[0]}},{{region[1]}},{{region[2]}}</view>
+</picker>

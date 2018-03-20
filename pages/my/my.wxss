@@ -1,0 +1,67 @@
+/* pages/my/my.wxss */
+.header{
+  width: 750rpx;
+  height: 300rpx;
+  background-color: #EED8AE;
+}
+.section-five{
+  width: 750rpx;
+  height: 120rpx;
+  position:relative;
+  top: 130rpx;
+  display: flex;
+}
+.section-five-a image{
+  width: 60rpx;
+  height: 50rpx;
+  float: right;
+  vertical-align: middle;
+}
+.section-five text{
+  font-size: 18px;
+  margin-left: 10rpx;
+  color: #FFF;
+}
+.section-five-a{
+  width: 550rpx;
+  height: 60rpx;
+  position: relative;
+  top:30rpx;
+}
+.section-five-img{
+  width: 120rpx;
+  height: 120rpx;
+  margin-left: 40rpx;
+  border-radius: 50px;
+}
+.meiyong{
+  height: 20rpx;
+}
+.section-frame{
+  width: 750rpx;
+  height: 120rpx;
+  background-color: #FFFFFF;
+}
+.section-frame-img{
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
+.section-frame text{
+  font-size: 13px;
+  margin-left: 10rpx;
+  color: #969696;
+}
+.section-frame-a{
+  width: 700rpx;
+  height: 60rpx;
+  margin: 0rpx auto;
+  position: relative;
+  top:30rpx;
+}
+.img{
+  float: right;
+  width: 30rpx;
+  height: 60rpx;
+  vertical-align: middle;
+}
