@@ -1,6 +1,0 @@
-<!--pages/news/news.wxml-->
-<view >
-  <button disabled='{{disabled}}' data-id="2" bindtap="getVerificationCode">
-{{time}}
-</button>
-</view>
